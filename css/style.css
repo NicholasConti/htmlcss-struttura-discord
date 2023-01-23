@@ -11,7 +11,7 @@
     width: 60%;
 }
 
-/* HEADER */
+/* HEADER TOP*/
 .header-top{
     background-color: #add8e6;
     padding: 10px 0;
@@ -41,3 +41,28 @@
 .link{
     width: 60%;
 }
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+/* HEADER BOT */
+
+.header-bot{
+    height: 500px;
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bot div{
+    width: 50%;
+    height: 400px;
+    background-color: #ee82ee;
+
+}
+
