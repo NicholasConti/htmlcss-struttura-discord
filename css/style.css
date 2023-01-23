@@ -5,7 +5,62 @@
     box-sizing: border-box;
 }
 
+/* 
+DEBUG 
+*/
 
+.debug .header-top{
+    background-color: #add8e6;
+}
+
+.debug .header-top div{
+    background-color: #daa520;
+    border: 1px dashed black;
+}
+
+.debug .header-bot{
+    height: 500px;
+    background-color: #00008b;
+}
+
+.debug .header-bot div{
+    height: 400px;
+    background-color: #ee82ee;
+}
+
+.debug .cube1{
+    background-color: #1e90ff;
+    height: 500px;
+}
+
+.debug .cube2{
+    background-color: #ffc0cb;
+    height: 500px;
+}
+
+.debug .colcontainer{
+     height: 570px;
+}
+
+.debug .col1{
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.debug .col2{
+    background-color: #20b2aa;
+    border: 2px dashed black;
+}
+
+.debug .footerbot > div{
+    background-color: #7fffd4;
+}
+
+.debug .footerbot > div > div{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+/* -------------------------------------------------------------------------------- */
 /* COMMON */
 .container{
     width: 60%;
@@ -16,16 +71,10 @@
 
 /* HEADER TOP*/
 .header-top{
-    background-color: #add8e6;
     padding: 10px 0;
     display: flex;
     justify-content: center;
     
-}
-
-.header-top div{
-    background-color: #daa520;
-    border: 1px dashed black;
 }
 
 .logologin{
@@ -46,8 +95,6 @@ ul{
 /* HEADER BOT */
 
 .header-bot{
-    height: 500px;
-    background-color: #00008b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,10 +102,7 @@ ul{
 
 .header-bot div{
     width: 50%;
-    height: 400px;
-    background-color: #ee82ee;
-
-}
+    }
 
 /* MAIN */
 main{
@@ -76,14 +120,11 @@ main{
 
 .cube1{
     width: 60%;
-    background-color: #1e90ff;
-    height: 500px;
+    
 }
 
 .cube2{
     width: 40%;
-    background-color: #ffc0cb;
-    height: 500px;
 }
 
 .row:nth-child(even){
@@ -116,7 +157,6 @@ footer{
 .colcontainer{
     margin: 0 auto;
     width: 60%;
-    height: 570px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -126,16 +166,11 @@ footer{
 .col1{
     height: 100%;
     width: 30%;
-    background-color: #f08080;
-    border: 2px dashed black;
-
 }
 
 .col2{
     height: 100%;
     width: 70%;
-    background-color: #20b2aa;
-    border: 2px dashed black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -161,11 +196,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7fffd4;
 }
 
 .footerbot > div > div{
-    background-color: #ffb6c1;
     padding: 5px;
-    border: 1px dashed black;
 }
